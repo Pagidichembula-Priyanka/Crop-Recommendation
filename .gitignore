@@ -1,5 +1,19 @@
+# Virtual env
 .venv/
+
+# Python cache
 __pycache__/
 *.pyc
-*.pkl
-.env
+
+# MLflow logs
+mlruns/
+
+# Docker
+*.log
+
+# OS / IDE
+.vscode/
+.DS_Store
+
+# Model file (optional but recommended)
+models/model.pkl
